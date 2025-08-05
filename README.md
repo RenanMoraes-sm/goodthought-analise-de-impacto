@@ -62,5 +62,8 @@ As principais queries estão disponíveis no arquivo `queries.sql`, incluindo:
 
 Renan Moraes – Analista de Dados em transição para BI, apaixonado por transformar dados em decisões.
 
+📁 Portfólio completo disponível em [DataCamp Portfolio](https://www.datacamp.com/portfolio/renanmoraess)  
+📊 Projeto hospedado em [DataLab - GoodThought Impact Analysis](https://www.datacamp.com/datalab/w/4af934c5-e898-40c4-9fad-17889dc3df4f/edit)
+
 ---
 
