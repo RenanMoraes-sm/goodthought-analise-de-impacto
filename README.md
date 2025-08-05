@@ -1,5 +1,8 @@
 # 📊 Análise de Impacto das Iniciativas da ONG GoodThought
 
+<img width="500" height="353" alt="image" src="https://github.com/user-attachments/assets/8a51c7b5-580f-46fa-9812-bd9107d935e1" />
+<br> <br>
+
 Este projeto foi desenvolvido como parte de um exercício prático na plataforma DataCamp, utilizando um banco de dados PostgreSQL da ONG fictícia GoodThought. A organização atua globalmente em áreas como educação, saúde e desenvolvimento sustentável, e o objetivo aqui foi entender como os dados podem orientar decisões estratégicas em iniciativas sociais.
 
 ## 🧠 Objetivo
@@ -21,6 +24,25 @@ Explorar os dados de projetos, doações e impacto social da ONG entre 2010 e 20
 - A iniciativa com maior impacto na região **South** foi **Assignment_3547**, com **impact score 10** e **1.256 doações**.
 - Organizações tendem a financiar projetos com maior impacto agregado, enquanto indivíduos concentram doações em regiões específicas.
 
+### 💰 Top 5 Projetos com Maior Volume de Doações
+
+| Projeto           | Região | Tipo de Doador | Total Doado (US$) |
+|------------------|--------|----------------|-------------------|
+| Assignment_3033  | East   | Individual     | 3,840.66          |
+| Assignment_300   | West   | Organization   | 3,133.98          |
+| Assignment_4114  | North  | Organization   | 2,778.57          |
+| Assignment_1765  | West   | Organization   | 2,626.98          |
+| Assignment_268   | East   | Individual     | 2,488.69          |
+
+### 🌍 Projetos com Maior Impacto por Região
+
+| Região | Projeto           | Impact Score | Nº de Doações |
+|--------|-------------------|--------------|----------------|
+| East   | Assignment_316    | 10           | 1,253          |
+| North  | Assignment_2253   | 9.99         | 1,229          |
+| South  | Assignment_3547   | 10           | 1,256          |
+| West   | Assignment_3764   | 9.99         | 1,262          |
+
 ## 🗂️ Estrutura do banco de dados
 
 O banco é composto por três tabelas principais:
@@ -34,6 +56,7 @@ O banco é composto por três tabelas principais:
 As principais queries estão disponíveis no arquivo `queries.sql`, incluindo:
 - `highest_donation_assignments`
 - `top_regional_impact_assignments`
+
 
 ## 👨‍💻 Autor
 
