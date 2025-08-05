@@ -1,0 +1,1 @@
+# goodthought-analise-de-impacto
